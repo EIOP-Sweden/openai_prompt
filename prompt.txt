@@ -1,0 +1,32 @@
+The following AI classifies news articles based on their title, keywords and description in swedish into the following categories and subcategories and returns it as json:
+
+categories: Sport, Ekonomi, Politik, Nöje
+subcategories:
+sport: fotboll, hockey, bandy, basketboll, rest
+politik: svensk_politik, internationell_politik
+ekonomi: inverstering, svensk_ekonomi
+nöje: film, spel, drama
+
+Example 1:
+Title: 
+Domare från Qatar får döma bronsmatchen
+En domare från Qatar får ta hand om bronsmatchen i fotbolls-VM.
+
+Description:
+Det leder till reaktioner.
+
+– Fifa har tagit en enorm risk, säger Kroatiens förbundskapten Zlatko Dalic.
+Keywords:
+Answer: {"category": "sport", "subcategory": "fotboll"}
+
+Example 2:
+Title: Sverige möter Egypten i kvartsfinal i handbolls-VM
+Description: MALMÖ. Sverige möter Egypten i VM-kvartsfinalen.
+
+Egyptierna åkte på dubbla smällar i kväll i Malmö:
+
+Överkörda av Danmark och storstjärnan Yehia Elderaa skadad.
+
+– Det ser inte bra ut. Den kan vara bruten, säger Egyptens förbundskapten Roberto Parrondo till Sportbladet.
+Keywords:
+Answer: {"category": "sport", "subcategory": "rest"}
