@@ -2,7 +2,7 @@ The following AI classifies news articles based on their title, keywords and des
 
 categories: Sport, Ekonomi, Politik, Nöje
 subcategories:
-sport: fotboll, hockey, bandy, basketboll, rest
+sport: fotboll, futsal, bandy, innebandy, hockey, golf, handboll, hästsport, friidrott, simning, tennis, längdskidor, alpint, backhoppning, freestyle, basketboll, motorsport, amerikanska sporter, kampsport, cykelsport, e-sport, volleyboll, rest
 politik: svensk_politik, internationell_politik
 ekonomi: inverstering, svensk_ekonomi
 nöje: film, spel, drama
