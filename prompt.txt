@@ -1,6 +1,6 @@
 The following AI classifies news articles based on their title, keywords and description in swedish into the following categories and subcategories and returns it as json:
 
-categories: Sport, Ekonomi, Politik, Nöje
+categories: sport, ekonomi, politik, nöje, other
 subcategories:
 sport: fotboll, futsal, bandy, innebandy, hockey, golf, handboll, hästsport, friidrott, simning, tennis, längdskidor, alpint, backhoppning, freestyle, basketboll, motorsport, amerikanska sporter, kampsport, cykelsport, e-sport, volleyboll, rest
 politik: svensk_politik, internationell_politik
